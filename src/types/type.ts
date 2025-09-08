@@ -1,6 +1,5 @@
-// type Content={
-//     id: number
-//     content: string
-//     checkBox: boolean
-//     delete: boolean
-// }
+export type Todo = {
+    id: number
+    content: string
+    completed: boolean
+}
